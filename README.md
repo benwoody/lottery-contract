@@ -1,6 +1,5 @@
 # Ethereum Lottery Smart Contract
 
-Simple smart contract for a lottery system on Ethereum, allowing players to enter by sending a fixed entry fee. The contract randomly selects a winner using the `block.prevrandao` method, ensuring compatibility with Proof of Stake (PoS) networks.
 ---
 
 1. **Install dependencies:**
@@ -46,6 +45,13 @@ npx hardhat run scripts/deploy.js --network hardhat
 npx hardhat run scripts/deploy.js --network sepolia
 ```
 
+---
+
+### **Deploy on Main Net:**
+
+```sh
+npx hardhat run scripts/deploy.js --network mainnet
+```
 ---
 
 ## Run Tests
