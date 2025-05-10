@@ -2,20 +2,11 @@
 
 ---
 
-1. **Install dependencies:**
+**Install dependencies:**
 
    ```sh
    npm install
    ```
-
-2. **Set up Hardhat:**
-
-   ```sh
-   npx hardhat
-   ```
-
-   Select **"Create a basic sample project"** if prompted.
-
 
 ## Compile the Contract
 
